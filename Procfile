@@ -1,4 +1,1 @@
-web:
-  - yarn build
-  - npx prisma migrate deploy
-  - yarn start
+web: yarn prisma migrate deploy && yarn start
