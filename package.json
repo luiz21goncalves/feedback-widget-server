@@ -8,7 +8,9 @@
     "dev": "tsnd --transpile-only --ignore-watch node_modules --respawn --exit-child src/server.ts",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "dependencies": {
     "@prisma/client": "3.13.0",
